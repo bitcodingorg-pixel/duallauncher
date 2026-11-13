@@ -1,7 +1,7 @@
 {
    "version":2,
    "clones":{
-      "free_apps_limit":2,
+      "free_apps_limit":1,
       "free_copies_per_app":1,
       "launcher_user":{
          "free_apps_limit":4,
@@ -12,7 +12,7 @@
       "show_reward_option":true,
       "show_purchase_option":true,
       "show_launcher_option":true,
-      "reward_ads_required":2,
+      "reward_ads_required":1,
       "reward_free_minutes":60
    },
    "paywall":{
@@ -29,7 +29,7 @@
       "qr_scanner":true
    },
    "ads":{
-      "enabled":true,
+      "enabled":false,
       "admob_app_id":"ca-app-pub-3940256099942544~3347511713",
       "splash_ad_wait_ms":3500,
       "app_open":{
