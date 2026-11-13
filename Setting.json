@@ -41,10 +41,12 @@
          "in_bundled_apps":false,
          "units":[
             {
+               "percentage":40, 
                "network":"admob",
                "id":"ca-app-pub-3940256099942544/9257395921"
             },
             {
+               "percentage":60, 
                "network":"adx",
                "id":"/21775744923/example/app-open"
             }
@@ -59,10 +61,12 @@
          "min_gap_seconds":0,
          "units":[
             {
+               "percentage":60, 
                "network":"admob",
                "id":"ca-app-pub-3940256099942544/1033173712"
             },
             {
+               "percentage":40, 
                "network":"adx",
                "id":"/21775744923/example/interstitial"
             }
@@ -72,10 +76,12 @@
          "enabled":true,
          "units":[
             {
+               "percentage":60, 
                "network":"admob",
                "id":"ca-app-pub-3940256099942544/5224354917"
             },
             {
+               "percentage":40, 
                "network":"adx",
                "id":"/21775744923/example/rewarded"
             }
@@ -97,10 +103,12 @@
          },
          "units":[
             {
+               "percentage":40, 
                "network":"admob",
                "id":"ca-app-pub-3940256099942544/9214589741"
             },
             {
+               "percentage":60, 
                "network":"adx",
                "id":"/21775744923/example/fixed-size-banner"
             }
@@ -125,10 +133,12 @@
          },
          "units":[
             {
+               "percentage":40, 
                "network":"admob",
                "id":"ca-app-pub-3940256099942544/2247696110"
             },
             {
+               "percentage":60, 
                "network":"adx",
                "id":"/21775744923/example/native"
             }
