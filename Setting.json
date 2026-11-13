@@ -31,7 +31,7 @@
       "qr_scanner":true
    },
    "ads":{
-      "enabled":true,
+      "enabled":false,
       "admob_app_id":"ca-app-pub-3940256099942544~3347511713",
       "splash_ad_wait_ms":3500,
       "app_open":{
