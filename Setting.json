@@ -1,11 +1,11 @@
 { 
  "version": 3, 
  "clones": { 
- "free_apps_limit": 4, 
- "free_copies_per_app": 1, 
+ "free_apps_limit": 40, 
+ "free_copies_per_app": 40, 
  "launcher_user": { 
- "free_apps_limit": 6, 
- "free_copies_per_app": 2 
+ "free_apps_limit": 40, 
+ "free_copies_per_app": 40 
  } 
  }, 
  "limit_dialog": { 
