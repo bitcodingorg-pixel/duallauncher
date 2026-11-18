@@ -1,11 +1,11 @@
 { 
  "version": 3, 
  "clones": { 
- "free_apps_limit": 20, 
- "free_copies_per_app": 20, 
+ "free_apps_limit": 4, 
+ "free_copies_per_app": 1, 
  "launcher_user": { 
- "free_apps_limit": 20, 
- "free_copies_per_app": 20 
+ "free_apps_limit": 6, 
+ "free_copies_per_app": 2 
  } 
  }, 
  "limit_dialog": { 
@@ -13,7 +13,7 @@
  "show_purchase_option": true, 
  "show_launcher_option": true, 
  "reward_ads_required": 1, 
- "reward_free_minutes": 1440 
+ "reward_free_minutes": 720
  }, 
  "paywall": { 
  "show_on_first_launch": true 
@@ -32,8 +32,8 @@
  "ai_studio": true 
  }, 
  "ads": { 
- "enabled": false, 
- "admob_app_id": "ca-app-pub-3940256099942544~3347511713", 
+ "enabled": true, 
+ "admob_app_id": "ca-app-pub-7664893030317051~6547882348", 
  "splash_ad_wait_ms": 3500, 
  "app_open": { 
  "enabled": true, 
@@ -42,15 +42,10 @@
  "in_bundled_apps": false, 
  "units": [ 
  { 
- "percentage": 40, 
+ "percentage": 100, 
  "network": "admob", 
- "id": "ca-app-pub-3940256099942544/9257395921" 
- }, 
- { 
- "percentage": 60, 
- "network": "adx", 
- "id": "/21775744923/example/app-open" 
- } 
+ "id": "/21753324030,22831392815/com.dualspace.launcher.parallelapp.cloneapp.dualappcloner.multipleaccounts_AppOpen" 
+ }
  ] 
  }, 
  "interstitial": { 
@@ -62,34 +57,29 @@
  "min_gap_seconds": 0, 
  "units": [ 
  { 
- "percentage": 60, 
+ "percentage": 100, 
  "network": "admob", 
- "id": "ca-app-pub-3940256099942544/1033173712" 
- }, 
- { 
- "percentage": 40, 
- "network": "adx", 
- "id": "/21775744923/example/interstitial" 
- } 
+ "id": "/21753324030,22831392815/com.dualspace.launcher.parallelapp.cloneapp.dualappcloner.multipleaccounts_Interstitial" 
+ }
  ], 
  "on_note_open": false, 
  "on_wallpaper_open": true, 
  "on_wallpaper_apply": true, 
  "on_wallpaper_tab": false, 
  "studio": { 
- "open": false, 
+ "open": true, 
  "tab": { 
  "enabled": true, 
  "every_n": 3 
  }, 
  "back": { 
- "enabled": true, 
+ "enabled": false, 
  "every_n": 4 
  }, 
  "tool": true, 
- "history": false, 
+ "history": true, 
  "result": true, 
- "generate": false, 
+ "generate": true, 
  "continue": true, 
  "save": true, 
  "share": false 
@@ -99,15 +89,10 @@
  "enabled": true, 
  "units": [ 
  { 
- "percentage": 60, 
+ "percentage": 100, 
  "network": "admob", 
- "id": "ca-app-pub-3940256099942544/5224354917" 
- }, 
- { 
- "percentage": 40, 
- "network": "adx", 
- "id": "/21775744923/example/rewarded" 
- } 
+ "id": "/21753324030,22831392815/com.dualspace.launcher.parallelapp.cloneapp.dualappcloner.multipleaccounts_Rewarded" 
+ }
  ] 
  }, 
  "banner": { 
@@ -119,23 +104,18 @@
  "compass": true, 
  "camera": true, 
  "unit_converter": false, 
- "date_calc": false, 
- "barometer": false, 
- "torch": false, 
- "qr_scanner": false, 
+ "date_calc": true, 
+ "barometer": true, 
+ "torch": true, 
+ "qr_scanner": true, 
  "ai_studio": true 
  }, 
  "units": [ 
  { 
- "percentage": 40, 
+ "percentage": 100, 
  "network": "admob", 
- "id": "ca-app-pub-3940256099942544/9214589741" 
- }, 
- { 
- "percentage": 60, 
- "network": "adx", 
- "id": "/21775744923/example/fixed-size-banner" 
- } 
+ "id": "/21753324030,22831392815/com.dualspace.launcher.parallelapp.cloneapp.dualappcloner.multipleaccounts_Banner" 
+ }
  ] 
  }, 
  "native": { 
@@ -146,9 +126,9 @@
  "on_clone_open": true, 
  "clone_open_min_ms": 1500, 
  "apps": { 
- "calculator": false, 
- "compass": false, 
- "camera": false, 
+ "calculator": true, 
+ "compass": true, 
+ "camera": true, 
  "unit_converter": true, 
  "date_calc": true, 
  "barometer": true, 
@@ -158,19 +138,14 @@
  "wallpapers": true, 
  "ai_studio": true, 
  "ai_studio_loader": true, 
- "ai_studio_dialogs": false 
+ "ai_studio_dialogs": true
  }, 
  "units": [ 
  { 
- "percentage": 40, 
+ "percentage": 100, 
  "network": "admob", 
- "id": "ca-app-pub-3940256099942544/2247696110" 
- }, 
- { 
- "percentage": 60, 
- "network": "adx", 
- "id": "/21775744923/example/native" 
- } 
+ "id": "/21753324030,22831392815/com.dualspace.launcher.parallelapp.cloneapp.dualappcloner.multipleaccounts_Native" 
+ }
  ], 
  "on_launcher_home": true, 
  "launcher_home_style": "card", 
