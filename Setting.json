@@ -45,7 +45,7 @@
  "splash_ad_wait_ms": 3500, 
  "app_open": { 
  "enabled": true, 
- "mode": "rotation", 
+ "mode": "percentage", 
  "on_splash": true, 
  "on_resume": true, 
  "in_bundled_apps": false, 
@@ -53,13 +53,18 @@
  { 
  "network": "adx", 
  "id": "/21753324030,22831392815/com.dualspace.launcher.parallelapp.cloneapp.dualappcloner.multipleaccounts_AppOpen", 
- "percentage": 100 
+ "percentage": 50 
+ }, 
+ { 
+ "network": "facebook", 
+ "id": "1929715864726544_1929716941393103", 
+ "percentage": 50 
  } 
  ] 
  }, 
  "interstitial": { 
  "enabled": true, 
- "mode": "rotation", 
+ "mode": "percentage", 
  "on_clone_open": true, 
  "on_clone_open_from_launcher_home": true, 
  "after_clone_created": true, 
@@ -91,36 +96,36 @@
  { 
  "network": "adx", 
  "id": "/21753324030,22831392815/com.dualspace.launcher.parallelapp.cloneapp.dualappcloner.multipleaccounts_Interstitial", 
- "percentage": 0 
+ "percentage": 50 
  }, 
  { 
  "network": "facebook", 
  "id": "1929715864726544_1929716941393103", 
- "percentage": 100 
+ "percentage": 50 
  } 
  ] 
  }, 
  "rewarded": { 
  "enabled": true, 
- "mode": "rotation", 
+ "mode": "percentage", 
  "units": [ 
  { 
  "network": "adx", 
  "id": "/21753324030,22831392815/com.dualspace.launcher.parallelapp.cloneapp.dualappcloner.multipleaccounts_Rewarded", 
- "percentage": 0 
+ "percentage": 50 
  }, 
  { 
  "network": "facebook", 
  "id": "1929715864726544_1929718174726313", 
  "type": "rewarded_interstitial", 
- "percentage": 100 
+ "percentage": 50 
  } 
  ] 
  }, 
  "banner": { 
  "enabled": true, 
- "mode": "rotation", 
- "on_clone_home": true, 
+ "mode": "percentage", 
+ "on_clone_home": false, 
  "on_app_list": true, 
  "apps": { 
  "calculator": true, 
@@ -137,18 +142,18 @@
  { 
  "network": "adx", 
  "id": "/21753324030,22831392815/com.dualspace.launcher.parallelapp.cloneapp.dualappcloner.multipleaccounts_Banner", 
- "percentage": 0 
+ "percentage": 50 
  }, 
  { 
  "network": "facebook", 
  "id": "1929715864726544_1929716941393103", 
- "percentage": 100 
+ "percentage": 50 
  } 
  ] 
  }, 
  "native": { 
  "enabled": true, 
- "mode": "rotation", 
+ "mode": "percentage", 
  "in_app_list": true, 
  "app_list_position": 3, 
  "in_limit_dialog": true, 
@@ -176,13 +181,13 @@
  { 
  "network": "adx", 
  "id": "/21753324030,22831392815/com.dualspace.launcher.parallelapp.cloneapp.dualappcloner.multipleaccounts_Native", 
- "percentage": 0 
+ "percentage": 50 
  }, 
  { 
  "network": "facebook", 
  "id": "1929715864726544_1929717994726331", 
  "type": "native", 
- "percentage": 100 
+ "percentage": 50 
  } 
  ] 
  }, 
