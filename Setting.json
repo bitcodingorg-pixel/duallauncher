@@ -1,608 +1,652 @@
-{ 
- "version": 3, 
- "clones": { 
- "free_apps_limit": 40, 
- "free_copies_per_app": 40, 
- "launcher_user": { 
- "free_apps_limit": 40, 
- "free_copies_per_app": 40 
- } 
- }, 
- "limit_dialog": { 
- "show_reward_option": true, 
- "show_purchase_option": true, 
- "show_launcher_option": true, 
- "reward_ads_required": 1, 
- "reward_free_minutes": 720
- }, 
- "paywall": { 
- "show_on_first_launch": true 
- }, 
- "bundled_apps": { 
- "calculator": true, 
- "compass": true, 
- "camera": true, 
- "unit_converter": true, 
- "date_calc": true, 
- "barometer": true, 
- "torch": true, 
- "qr_scanner": true, 
- "notes": true, 
- "wallpapers": true, 
- "ai_studio": true 
- }, 
- "ads": { 
- "enabled": false, 
- "admob_app_id": "ca-app-pub-7664893030317051~6547882348", 
- "splash_ad_wait_ms": 3500, 
- "app_open": { 
- "enabled": true, 
- "on_splash": true, 
- "on_resume": true, 
- "in_bundled_apps": false, 
- "units": [ 
- { 
- "percentage": 100, 
- "network": "admob", 
- "id": "/21753324030,22831392815/com.dualspace.launcher.parallelapp.cloneapp.dualappcloner.multipleaccounts_AppOpen" 
+{
+"version": 3,
+"clones": {
+"free_apps_limit": 40,
+"free_copies_per_app": 40,
+"launcher_user": {
+"free_apps_limit": 40,
+"free_copies_per_app": 40
+ }
+ },
+"limit_dialog": {
+"show_reward_option": true,
+"show_purchase_option": true,
+"show_launcher_option": true,
+"reward_ads_required": 1,
+"reward_free_minutes": 720
+ },
+"paywall": {
+"show_on_first_launch": true
+ },
+"bundled_apps": {
+"calculator": true,
+"compass": true,
+"camera": true,
+"unit_converter": true,
+"date_calc": true,
+"barometer": true,
+"torch": true,
+"qr_scanner": true,
+"notes": true,
+"wallpapers": true,
+"ai_studio": true
+ },
+"ads": {
+"enabled": true,
+"admob_app_id": "ca-app-pub-7664893030317051~6547882348",
+"facebook": {
+"enabled": true,
+"app_id": "1929715864726544",
+"test_mode": false,
+"test_devices": []
+ },
+"splash_ad_wait_ms": 3500,
+"app_open": {
+"enabled": true,
+"mode": "rotation",
+"on_splash": true,
+"on_resume": true,
+"in_bundled_apps": false,
+"units": [
+ {
+"network": "adx",
+"id": "/21753324030,22831392815/com.dualspace.launcher.parallelapp.cloneapp.dualappcloner.multipleaccounts_AppOpen",
+"percentage": 100
  }
  ]
- }, 
- "interstitial": { 
- "enabled": true, 
- "on_clone_open": true, 
- "on_clone_open_from_launcher_home": true, 
- "after_clone_created": true, 
- "after_reward_unlock": false, 
- "min_gap_seconds": 0, 
- "units": [ 
- { 
- "percentage": 100, 
- "network": "admob", 
- "id": "/21753324030,22831392815/com.dualspace.launcher.parallelapp.cloneapp.dualappcloner.multipleaccounts_Interstitial" 
+ },
+"interstitial": {
+"enabled": true,
+"mode": "rotation",
+"on_clone_open": true,
+"on_clone_open_from_launcher_home": true,
+"after_clone_created": true,
+"after_reward_unlock": false,
+"min_gap_seconds": 0,
+"on_note_open": false,
+"on_wallpaper_open": true,
+"on_wallpaper_apply": true,
+"on_wallpaper_tab": false,
+"studio": {
+"open": true,
+"tab": {
+"enabled": true,
+"every_n": 3
+ },
+"back": {
+"enabled": false,
+"every_n": 4
+ },
+"tool": true,
+"history": true,
+"result": true,
+"generate": true,
+"continue": true,
+"save": true,
+"share": false
+ },
+"units": [
+ {
+"network": "adx",
+"id": "/21753324030,22831392815/com.dualspace.launcher.parallelapp.cloneapp.dualappcloner.multipleaccounts_Interstitial",
+"percentage": 50
+ },
+ {
+"network": "facebook",
+"id": "1929715864726544_1929716941393103",
+"percentage": 50
  }
- ], 
- "on_note_open": false, 
- "on_wallpaper_open": true, 
- "on_wallpaper_apply": true, 
- "on_wallpaper_tab": false, 
- "studio": { 
- "open": true, 
- "tab": { 
- "enabled": true, 
- "every_n": 3 
- }, 
- "back": { 
- "enabled": false, 
- "every_n": 4 
- }, 
- "tool": true, 
- "history": true, 
- "result": true, 
- "generate": true, 
- "continue": true, 
- "save": true, 
- "share": false 
- } 
- }, 
- "rewarded": { 
- "enabled": true, 
- "units": [ 
- { 
- "percentage": 100, 
- "network": "admob", 
- "id": "/21753324030,22831392815/com.dualspace.launcher.parallelapp.cloneapp.dualappcloner.multipleaccounts_Rewarded" 
+ ]
+ },
+"rewarded": {
+"enabled": true,
+"mode": "rotation",
+"units": [
+ {
+"network": "adx",
+"id": "/21753324030,22831392815/com.dualspace.launcher.parallelapp.cloneapp.dualappcloner.multipleaccounts_Rewarded",
+"percentage": 50
+ },
+ {
+"network": "facebook",
+"id": "1929715864726544_1929718174726313",
+"type": "rewarded_interstitial",
+"percentage": 50
  }
- ] 
- }, 
- "banner": { 
- "enabled": true, 
- "on_clone_home": true, 
- "on_app_list": true, 
- "apps": { 
- "calculator": true, 
- "compass": true, 
- "camera": true, 
- "unit_converter": false, 
- "date_calc": true, 
- "barometer": true, 
- "torch": true, 
- "qr_scanner": true, 
- "ai_studio": true 
- }, 
- "units": [ 
- { 
- "percentage": 100, 
- "network": "admob", 
- "id": "/21753324030,22831392815/com.dualspace.launcher.parallelapp.cloneapp.dualappcloner.multipleaccounts_Banner" 
+ ]
+ },
+"banner": {
+"enabled": true,
+"mode": "rotation",
+"on_clone_home": true,
+"on_app_list": true,
+"apps": {
+"calculator": true,
+"compass": true,
+"camera": true,
+"unit_converter": false,
+"date_calc": true,
+"barometer": true,
+"torch": true,
+"qr_scanner": true,
+"ai_studio": true
+ },
+"units": [
+ {
+"network": "adx",
+"id": "/21753324030,22831392815/com.dualspace.launcher.parallelapp.cloneapp.dualappcloner.multipleaccounts_Banner",
+"percentage": 50
+ },
+ {
+"network": "facebook",
+"id": "1929715864726544_1929716941393103",
+"percentage": 50
  }
- ] 
- }, 
- "native": { 
- "enabled": true, 
- "in_app_list": true, 
- "app_list_position": 3, 
- "in_limit_dialog": true, 
- "on_clone_open": true, 
- "clone_open_min_ms": 1500, 
- "apps": { 
- "calculator": true, 
- "compass": true, 
- "camera": true, 
- "unit_converter": true, 
- "date_calc": true, 
- "barometer": true, 
- "torch": true, 
- "qr_scanner": true, 
- "notes": true, 
- "wallpapers": true, 
- "ai_studio": true, 
- "ai_studio_loader": true, 
- "ai_studio_dialogs": true
- }, 
- "units": [ 
- { 
- "percentage": 100, 
- "network": "admob", 
- "id": "/21753324030,22831392815/com.dualspace.launcher.parallelapp.cloneapp.dualappcloner.multipleaccounts_Native" 
+ ]
+ },
+"native": {
+"enabled": true,
+"mode": "rotation",
+"in_app_list": true,
+"app_list_position": 3,
+"in_limit_dialog": true,
+"on_clone_open": true,
+"clone_open_min_ms": 1500,
+"apps": {
+"calculator": true,
+"compass": true,
+"camera": true,
+"unit_converter": true,
+"date_calc": true,
+"barometer": true,
+"torch": true,
+"qr_scanner": true,
+"notes": true,
+"wallpapers": true,
+"ai_studio": true,
+"ai_studio_loader": true,
+"ai_studio_dialogs": true
+ },
+"on_launcher_home": true,
+"launcher_home_style": "card",
+"on_launcher_drawer": true,
+"units": [
+ {
+"network": "adx",
+"id": "/21753324030,22831392815/com.dualspace.launcher.parallelapp.cloneapp.dualappcloner.multipleaccounts_Native",
+"percentage": 50
+ },
+ {
+"network": "facebook",
+"id": "1929715864726544_1929717994726331",
+"type": "native",
+"percentage": 50
  }
- ], 
- "on_launcher_home": true, 
- "launcher_home_style": "card", 
- "on_launcher_drawer": true 
- }, 
- "wallpaper_download": { 
- "ad": "rewarded", 
- "every_n": 1 
- } 
- }, 
- "app": { 
- "min_version_code": 0, 
- "latest_version_code": 3, 
- "latest_version_name": "1.0.2", 
- "update_url": "https://play.google.com/store/apps/details?id=com.dualspace.launcher.parallelapp.cloneapp.dualappcloner.multipleaccounts", 
- "force_update": false, 
- "title": null, 
- "update_message": null, 
- "logo_url": null, 
- "button_text": null, 
- "package_name": null 
- }, 
- "features": { 
- "hide_other_launchers": { 
- "default_on": false, 
- "always_show": [] 
- }, 
- "notes": { 
- "checklists": true 
- } 
- }, 
- "home_apps": { 
- "enabled": true, 
- "keep_on_home": false, 
- "page": 0, 
- "items": [ 
- "ai_studio", 
- "notes", 
- "wallpapers" 
- ] 
- }, 
- "promo_icons": { 
- "enabled": false, 
- "placements": [ 
- "home_first_page", 
- "search" 
- ], 
- "max_visible": 8, 
- "max_rows": 1, 
- "overflow_pages": 1, 
- "selection": "weighted", 
- "reshuffle": "daily", 
- "hide_installed_apps": true, 
- "icon_background": "white", 
- "label": { 
- "show": true, 
- "text": "Ad", 
- "background_color": "#FFBF00", 
- "text_color": "#000000", 
- "position": "top_end" 
- }, 
- "items": [ 
- { 
- "id": "promo_1", 
- "name": "My Game", 
- "icon_url": "https://example.com/icon.png", 
- "target": { 
- "type": "play_store", 
- "value": "com.example.mygame", 
- "fallback": null 
- }, 
- "package_name": "com.example.mygame", 
- "weight": 2, 
- "pinned": false, 
- "badge": "NEW", 
- "countries": [], 
- "daily_click_cap": 0 
- } 
- ] 
- }, 
- "studio": { 
- "enabled": true, 
- "api_base_url": "https://launcher.magicalstudio.ai", 
- "watermark": true, 
- "hd_with_ad": true, 
- "regenerate_with_ad": true, 
- "unlock_with_ad": false, 
- "ad_block_check": true, 
- "home_columns": 3, 
- "progress": { 
- "extra_wait_seconds": 20, 
- "extra_wait": { 
- "ghibli_generator": 40 
- }, 
- "speed_up_after_seconds": 3, 
- "wait_label": null, 
- "wait_label_boosted": null, 
- "allow_back": true 
- }, 
- "default_home_prompt": { 
- "enabled": false, 
- "on_result": true, 
- "on_save": true, 
- "compulsory": false 
- }, 
- "maintenance": { 
- "enabled": false, 
- "message": "AI Studio is back shortly." 
- }, 
- "screen_security": { 
- "enabled": false 
- }, 
- "cache_ttl_seconds": 900, 
- "network": { 
- "max_retries": 3, 
- "request_timeout_seconds": 300 
- }, 
- "links": { 
- "store_listing": "https://play.google.com/store/apps/details?id=com.dualspace.launcher.parallelapp.cloneapp.dualappcloner.multipleaccounts", 
- "terms": "https://magicalstudio.ai/terms-conditions", 
- "privacy_policy": "https://magicalstudio.ai/privacy-policy", 
- "support_email": "support@magicalstudio.ai", 
- "delete_account": "https://magicalstudio.ai/delete-account?token={token}" 
- }, 
- "home": { 
- "tools": { 
- "enhance": { 
- "flag": "enhance_images", 
- "flow": "image_to_image", 
- "icon": null, 
- "badge": null, 
- "media": { 
- "type": "before_after", 
- "after_fallback": "https://magicalstudio.ai/assets/images/dashboard/tools/ai-enhance-after.jpg", 
- "before_fallback": "https://magicalstudio.ai/assets/images/dashboard/tools/ai-enhance-before.jpg" 
- }, 
- "title": "AI Enhance", 
- "status": "working", 
- "enabled": true, 
- "subtitle": "Sharpen, restore and upgrade quality.", 
- "artwork_key": "enhance", 
- "highlight_text": "*Enhance* Photo Quality with AI" 
- }, 
- "upscale": { 
- "flag": "enhance_images", 
- "flow": "image_to_image", 
- "icon": null, 
- "badge": null, 
- "media": { 
- "type": "before_after", 
- "after_fallback": "https://magicalstudio.ai/assets/images/dashboard/tools/ai-upscale-after.jpg", 
- "before_fallback": "https://magicalstudio.ai/assets/images/dashboard/tools/ai-upscale-before.jpg" 
- }, 
- "title": "AI Upscale", 
- "status": "working", 
- "enabled": true, 
- "subtitle": "Boost low-res photos to crisp HD.", 
- "artwork_key": "upscale", 
- "highlight_text": "Boost low-res photos to crisp *HD*." 
- }, 
- "ai_ghibli": { 
- "flag": "ghibli_generator", 
- "flow": "image_to_image", 
- "icon": null, 
- "badge": "HOT", 
- "media": { 
- "type": "before_after", 
- "after_fallback": "https://magicalstudio.ai/assets/images/dashboard/tools/ai-ghibli-after-2.jpg", 
- "before_fallback": "https://magicalstudio.ai/assets/images/dashboard/tools/ai-ghibli-before-2.jpg" 
- }, 
- "title": "AI Ghibli", 
- "status": "working", 
- "enabled": true, 
- "subtitle": "Turn your photo into Ghibli-style art.", 
- "artwork_key": "ai_ghibli", 
- "highlight_text": "Turn Photos into *Ghibli-Style* Art" 
- }, 
- "colorizer": { 
- "flag": "colorizer_images", 
- "flow": "image_to_image", 
- "icon": null, 
- "badge": null, 
- "media": { 
- "type": "before_after", 
- "after_fallback": "https://magicalstudio.ai/assets/images/dashboard/tools/photo-colorizer-after.jpg", 
- "before_fallback": "https://magicalstudio.ai/assets/images/dashboard/tools/photo-colorizer-before.jpg" 
- }, 
- "title": "AI Colorizer", 
- "status": "working", 
- "enabled": true, 
- "subtitle": "Restore & colorize old / B&W photos.", 
- "artwork_key": "colorizer", 
- "highlight_text": "Bring *old photos* back to life in colour" 
- }, 
- "retro_80s": { 
- "flag": "retro_80s", 
- "flow": "image_to_image", 
- "icon": null, 
- "badge": "New", 
- "media": { 
- "type": "before_after" 
- }, 
- "title": "AI 80s Photo", 
- "status": "working", 
- "enabled": true, 
- "subtitle": "Restyle your photo as an 80s studio portrait.", 
- "artwork_key": "retro_80s", 
- "highlight_text": "Create *1980s* Retro Photos" 
- }, 
- "bg_remover": { 
- "flag": "background_removal", 
- "flow": "image_to_image", 
- "icon": null, 
- "badge": null, 
- "media": { 
- "type": "before_after", 
- "after_fallback": "https://magicalstudio.ai/assets/images/dashboard/tools/bg-remove-after.jpg", 
- "before_fallback": "https://magicalstudio.ai/assets/images/dashboard/tools/bg-remove-before.jpg" 
- }, 
- "title": "BG Remover", 
- "status": "working", 
- "enabled": true, 
- "subtitle": "Erase the background, keep the subject.", 
- "artwork_key": "bg_remover", 
- "highlight_text": "*Remove backgrounds* instantly with AI" 
- }, 
- "image_edit": { 
- "flag": "custom", 
- "flow": "image_edit", 
- "icon": "ic_magic_wand", 
- "badge": null, 
- "media": { 
- "type": "image", 
- "fallback_resource": "img_edit_card" 
- }, 
- "title": "Image Edit", 
- "status": "working", 
- "enabled": true, 
- "subtitle": "Turn Photos into *Ghibli-Style* Art", 
- "artwork_key": "image_edit", 
- "prompt_animation": { 
- "enabled": true, 
- "prompts": [ 
- "A tree house, cinematic lighting", 
- "Sunrise over snowy mountains...", 
- "Add golden hour lighting...", 
- "Make the sky more dramatic..." 
- ], 
- "type_delay_ms": 55, 
- "erase_delay_ms": 14, 
- "hold_duration_ms": 1700, 
- "pause_duration_ms": 350 
- } 
- }, 
- "face_cutout": { 
- "flag": "face_cutout", 
- "flow": "image_to_image", 
- "icon": null, 
- "badge": null, 
- "media": { 
- "type": "before_after" 
- }, 
- "title": "Face Cutout", 
- "status": "working", 
- "enabled": true, 
- "subtitle": "Lift the face out, drop the rest.", 
- "artwork_key": "face_cutout", 
- "highlight_text": "The Best *Face Cut* Out Tool" 
- }, 
- "image_generate": { 
- "flag": "image_generator", 
- "flow": "text_to_image", 
- "icon": "ic_sparkle_plus", 
- "badge": null, 
- "media": { 
- "type": "before_after" 
- }, 
- "title": "AI Image Generate", 
- "status": "working", 
- "enabled": true, 
- "subtitle": "Describe a picture and let the AI draw it.", 
- "artwork_key": "image_generate" 
- }, 
- "image_to_video": { 
- "flow": "image_to_video", 
- "icon": "ic_video_magic", 
- "media": { 
- "type": "video", 
- "after_fallback": "https://storage.googleapis.com/magicalstudio/demo/video-demo-after.mp4", 
- "before_fallback": "https://storage.googleapis.com/magicalstudio/demo/video-demo-before.webp" 
- }, 
- "title": "Image to Video AI", 
- "action": "open_video_tab", 
- "status": "removed", 
- "enabled": true, 
- "subtitle": "Turn Photos into *Ghibli-Style* Art", 
- "artwork_key": "image_to_video" 
- } 
- }, 
- "sections": [ 
- { 
- "id": "home_headline", 
- "type": "headline", 
- "title": "What would you like to create today???", 
- "enabled": true 
- }, 
- { 
- "id": "home_video", 
- "key": "retro_80s", 
- "type": "hero", 
- "enabled": true, 
- "after_label": "After", 
- "before_label": "Before" 
- }, 
- { 
- "id": "home_create", 
- "type": "create_cards", 
- "tools": [ 
- "image_generate", 
- "image_edit" 
- ], 
- "columns": 2, 
- "enabled": true 
- }, 
- { 
- "id": "home_trending", 
- "icon": "ic_trending_fire", 
- "type": "trending", 
- "title": "Trending styles", 
- "source": "top_trends", 
- "enabled": true, 
- "see_all": true, 
- "error_title": "Couldn't load trends", 
- "item_action": "open_trend_generator", 
- "retry_enabled": true, 
- "see_all_title": "See all", 
- "see_all_action": "open_trends_tab", 
- "fallback_source": "first_trends_category" 
- }, 
- { 
- "id": "home_ai_tools", 
- "icon": "ic_ai_tools", 
- "rows": [ 
- 2, 
- 2, 
- 2 
- ], 
- "type": "tools_grid", 
- "title": "AI Tools", 
- "tools": [ 
- "ai_ghibli", 
- "enhance", 
- "colorizer", 
- "upscale", 
- "face_cutout", 
- "bg_remover" 
- ], 
- "enabled": true, 
- "overflow_columns": 2 
- } 
- ], 
- "schema_version": 1, 
- "media2_audience": "none" 
- }, 
- "deeplinks": { 
- "routes": { 
- "home": { 
- "tab": "home", 
- "type": "tab" 
- }, 
- "tools": { 
- "tab": "tools", 
- "type": "tab" 
- }, 
- "video": { 
- "tab": "video", 
- "type": "tab" 
- }, 
- "ghibli": { 
- "tool": "ai_ghibli", 
- "type": "tool" 
- }, 
- "trends": { 
- "tab": "trends", 
- "type": "tab" 
- }, 
- "enhance": { 
- "tool": "enhance", 
- "type": "tool" 
- }, 
- "history": { 
- "tab": "history", 
- "type": "tab" 
- }, 
- "support": { 
- "type": "screen", 
- "screen": "support" 
- }, 
- "upscale": { 
- "tool": "upscale", 
- "type": "tool" 
- }, 
- "colorizer": { 
- "tool": "colorizer", 
- "type": "tool" 
- }, 
- "retro-80s": { 
- "tool": "retro_80s", 
- "type": "tool" 
- }, 
- "bg-remover": { 
- "tool": "bg_remover", 
- "type": "tool" 
- }, 
- "image-edit": { 
- "tool": "image_edit", 
- "type": "tool" 
- }, 
- "face-cutout": { 
- "tool": "face_cutout", 
- "type": "tool" 
- }, 
- "video-maker": { 
- "tool": "image_to_video", 
- "type": "tool" 
- }, 
- "image-generate": { 
- "tool": "image_generate", 
- "type": "tool" 
- } 
- }, 
- "enabled": true, 
- "fallback": "home", 
- "path_prefix": "/d/", 
- "scheme_host": "d", 
- "dynamic_routes": { 
- "trend": { 
- "type": "trend", 
- "params": [ 
- "id" 
- ] 
- }, 
- "result": { 
- "type": "preview", 
- "params": [ 
- "url", 
- "video", 
- "label", 
- "flag" 
- ] 
- } 
- }, 
- "schema_version": 1 
- } 
- }, 
- "appharbel":{
-  "enable":true, 
-  "apikey":"9c97a122-9473-40af-ac43-ffef0cb4198c"
+ ]
+ },
+"wallpaper_download": {
+"ad": "rewarded",
+"every_n": 1
+ },
+"_help": {
+"modes": "\"mode\": \"percentage\" = har unit ka \"percentage\" chalega (jaise AdX 60, Facebook 40: 100 me se 60 ads AdX se pehle maange jayenge, 40 Facebook se). \"mode\": \"rotation\" = percentage ignore, ek ke baad ek unit (AdX, Facebook, AdX...). Dono me jo unit fill na kare uske baad list ka agla unit try hota hai. Khaali id wala unit aur uska percentage skip hote hain.",
+"network": "\"admob\" (ca-app-pub-xxx/yyy), \"adx\" (/123,456/path), \"facebook\" (Meta placement id 1234567890_1234567890). Id se network khud pehchana jata hai.",
+"empty_id": "\"id\": \"\" wala unit skip hota hai. Facebook / AdMob id bharte hi woh unit chalu ho jayega.",
+"facebook_app_open": "Meta me App Open format nahi hota: app_open me facebook ki Interstitial placement id daalo.",
+"facebook_native": "\"type\": \"native\" = Meta Native placement (badi image/video, sirf badi jagah: clone opening screen, launcher home large, AI Studio loader). \"type\": \"native_banner\" = Meta Native Banner placement (chhoti jagah: app list, dialogs, tools). Dono daalo to har jagah Facebook ad aa sakta hai.",
+"facebook_block": "ads.facebook.enabled false = sab Facebook units band (baaki chalte rahenge). test_mode true = Meta test ads (sirf testing ke liye, live par false). test_devices = Meta log ka \"Test mode device hash\".",
+"facebook_rewarded": "Rewarded me Meta ke dono format chalte hain: \"Rewarded Video\" aur \"Rewarded Interstitial\". \"type\": \"rewarded_interstitial\" likho to seedha usi tarah maanga jata hai. type na likho to pehle Rewarded Video, aur error 1203 aaye to khud Rewarded Interstitial try hota hai.",
+"facebook_pending": "interstitial + app_open ka facebook id khaali hai: diya gaya Intra id (..._1929716941393103) Banner placement hai (Meta error 1203). Meta Monetization Manager me ek Interstitial placement banao aur uska id interstitial + app_open dono ke facebook unit me daalo. native ka \"native_banner\" unit bhi khaali hai: ek \"Native Banner\" placement banao (chhoti jagah ke liye). Tab tak wahan AdX chalega.",
+"order": "AdX har list me pehle hai: purane app version \"mode\" nahi samajhte, woh list ke order se chalte hain, isliye unke liye AdX hi pehla rahega."
  }
-} 
+ },
+"app": {
+"min_version_code": 0,
+"latest_version_code": 3,
+"latest_version_name": "1.0.2",
+"update_url": "https://play.google.com/store/apps/details?id=com.dualspace.launcher.parallelapp.cloneapp.dualappcl…,
+"force_update": false,
+"title": null,
+"update_message": null,
+"logo_url": null,
+"button_text": null,
+"package_name": null
+ },
+"features": {
+"hide_other_launchers": {
+"default_on": false,
+"always_show": []
+ },
+"notes": {
+"checklists": true
+ }
+ },
+"home_apps": {
+"enabled": true,
+"keep_on_home": false,
+"page": 0,
+"items": [
+ "ai_studio",
+ "notes",
+ "wallpapers"
+ ]
+ },
+"promo_icons": {
+"enabled": false,
+"placements": [
+ "home_first_page",
+ "search"
+ ],
+"max_visible": 8,
+"max_rows": 1,
+"overflow_pages": 1,
+"selection": "weighted",
+"reshuffle": "daily",
+"hide_installed_apps": true,
+"icon_background": "white",
+"label": {
+"show": true,
+"text": "Ad",
+"background_color": "#FFBF00",
+"text_color": "#000000",
+"position": "top_end"
+ },
+"items": [
+ {
+"id": "promo_1",
+"name": "My Game",
+"icon_url": "https://example.com/icon.png",
+"target": {
+"type": "play_store",
+"value": "com.example.mygame",
+"fallback": null
+ },
+"package_name": "com.example.mygame",
+"weight": 2,
+"pinned": false,
+"badge": "NEW",
+"countries": [],
+"daily_click_cap": 0
+ }
+ ]
+ },
+"studio": {
+"enabled": true,
+"api_base_url": "https://launcher.magicalstudio.ai",
+"watermark": true,
+"hd_with_ad": true,
+"regenerate_with_ad": true,
+"unlock_with_ad": false,
+"ad_block_check": true,
+"home_columns": 3,
+"progress": {
+"extra_wait_seconds": 20,
+"extra_wait": {
+"ghibli_generator": 40
+ },
+"speed_up_after_seconds": 3,
+"wait_label": null,
+"wait_label_boosted": null,
+"allow_back": true
+ },
+"default_home_prompt": {
+"enabled": false,
+"on_result": true,
+"on_save": true,
+"compulsory": false
+ },
+"maintenance": {
+"enabled": false,
+"message": "AI Studio is back shortly."
+ },
+"screen_security": {
+"enabled": false
+ },
+"cache_ttl_seconds": 900,
+"network": {
+"max_retries": 3,
+"request_timeout_seconds": 300
+ },
+"links": {
+"store_listing": "https://play.google.com/store/apps/details?id=com.dualspace.launcher.parallelapp.cloneapp.dualappcl…,
+"terms": "https://magicalstudio.ai/terms-conditions",
+"privacy_policy": "https://magicalstudio.ai/privacy-policy",
+"support_email": "support@magicalstudio.ai",
+"delete_account": "https://magicalstudio.ai/delete-account?token={token}"
+ },
+"home": {
+"tools": {
+"enhance": {
+"flag": "enhance_images",
+"flow": "image_to_image",
+"icon": null,
+"badge": null,
+"media": {
+"type": "before_after",
+"after_fallback": "https://magicalstudio.ai/assets/images/dashboard/tools/ai-enhance-after.jpg",
+"before_fallback": "https://magicalstudio.ai/assets/images/dashboard/tools/ai-enhance-before.jpg"
+ },
+"title": "AI Enhance",
+"status": "working",
+"enabled": true,
+"subtitle": "Sharpen, restore and upgrade quality.",
+"artwork_key": "enhance",
+"highlight_text": "*Enhance* Photo Quality with AI"
+ },
+"upscale": {
+"flag": "enhance_images",
+"flow": "image_to_image",
+"icon": null,
+"badge": null,
+"media": {
+"type": "before_after",
+"after_fallback": "https://magicalstudio.ai/assets/images/dashboard/tools/ai-upscale-after.jpg",
+"before_fallback": "https://magicalstudio.ai/assets/images/dashboard/tools/ai-upscale-before.jpg"
+ },
+"title": "AI Upscale",
+"status": "working",
+"enabled": true,
+"subtitle": "Boost low-res photos to crisp HD.",
+"artwork_key": "upscale",
+"highlight_text": "Boost low-res photos to crisp *HD*."
+ },
+"ai_ghibli": {
+"flag": "ghibli_generator",
+"flow": "image_to_image",
+"icon": null,
+"badge": "HOT",
+"media": {
+"type": "before_after",
+"after_fallback": "https://magicalstudio.ai/assets/images/dashboard/tools/ai-ghibli-after-2.jpg",
+"before_fallback": "https://magicalstudio.ai/assets/images/dashboard/tools/ai-ghibli-before-2.jpg"
+ },
+"title": "AI Ghibli",
+"status": "working",
+"enabled": true,
+"subtitle": "Turn your photo into Ghibli-style art.",
+"artwork_key": "ai_ghibli",
+"highlight_text": "Turn Photos into *Ghibli-Style* Art"
+ },
+"colorizer": {
+"flag": "colorizer_images",
+"flow": "image_to_image",
+"icon": null,
+"badge": null,
+"media": {
+"type": "before_after",
+"after_fallback": "https://magicalstudio.ai/assets/images/dashboard/tools/photo-colorizer-after.jpg",
+"before_fallback": "https://magicalstudio.ai/assets/images/dashboard/tools/photo-colorizer-before.jpg"
+ },
+"title": "AI Colorizer",
+"status": "working",
+"enabled": true,
+"subtitle": "Restore & colorize old / B&W photos.",
+"artwork_key": "colorizer",
+"highlight_text": "Bring *old photos* back to life in colour"
+ },
+"retro_80s": {
+"flag": "retro_80s",
+"flow": "image_to_image",
+"icon": null,
+"badge": "New",
+"media": {
+"type": "before_after"
+ },
+"title": "AI 80s Photo",
+"status": "working",
+"enabled": true,
+"subtitle": "Restyle your photo as an 80s studio portrait.",
+"artwork_key": "retro_80s",
+"highlight_text": "Create *1980s* Retro Photos"
+ },
+"bg_remover": {
+"flag": "background_removal",
+"flow": "image_to_image",
+"icon": null,
+"badge": null,
+"media": {
+"type": "before_after",
+"after_fallback": "https://magicalstudio.ai/assets/images/dashboard/tools/bg-remove-after.jpg",
+"before_fallback": "https://magicalstudio.ai/assets/images/dashboard/tools/bg-remove-before.jpg"
+ },
+"title": "BG Remover",
+"status": "working",
+"enabled": true,
+"subtitle": "Erase the background, keep the subject.",
+"artwork_key": "bg_remover",
+"highlight_text": "*Remove backgrounds* instantly with AI"
+ },
+"image_edit": {
+"flag": "custom",
+"flow": "image_edit",
+"icon": "ic_magic_wand",
+"badge": null,
+"media": {
+"type": "image",
+"fallback_resource": "img_edit_card"
+ },
+"title": "Image Edit",
+"status": "working",
+"enabled": true,
+"subtitle": "Turn Photos into *Ghibli-Style* Art",
+"artwork_key": "image_edit",
+"prompt_animation": {
+"enabled": true,
+"prompts": [
+ "A tree house, cinematic lighting",
+ "Sunrise over snowy mountains...",
+ "Add golden hour lighting...",
+ "Make the sky more dramatic..."
+ ],
+"type_delay_ms": 55,
+"erase_delay_ms": 14,
+"hold_duration_ms": 1700,
+"pause_duration_ms": 350
+ }
+ },
+"face_cutout": {
+"flag": "face_cutout",
+"flow": "image_to_image",
+"icon": null,
+"badge": null,
+"media": {
+"type": "before_after"
+ },
+"title": "Face Cutout",
+"status": "working",
+"enabled": true,
+"subtitle": "Lift the face out, drop the rest.",
+"artwork_key": "face_cutout",
+"highlight_text": "The Best *Face Cut* Out Tool"
+ },
+"image_generate": {
+"flag": "image_generator",
+"flow": "text_to_image",
+"icon": "ic_sparkle_plus",
+"badge": null,
+"media": {
+"type": "before_after"
+ },
+"title": "AI Image Generate",
+"status": "working",
+"enabled": true,
+"subtitle": "Describe a picture and let the AI draw it.",
+"artwork_key": "image_generate"
+ },
+"image_to_video": {
+"flow": "image_to_video",
+"icon": "ic_video_magic",
+"media": {
+"type": "video",
+"after_fallback": "https://storage.googleapis.com/magicalstudio/demo/video-demo-after.mp4",
+"before_fallback": "https://storage.googleapis.com/magicalstudio/demo/video-demo-before.webp"
+ },
+"title": "Image to Video AI",
+"action": "open_video_tab",
+"status": "removed",
+"enabled": true,
+"subtitle": "Turn Photos into *Ghibli-Style* Art",
+"artwork_key": "image_to_video"
+ }
+ },
+"sections": [
+ {
+"id": "home_headline",
+"type": "headline",
+"title": "What would you like to create today???",
+"enabled": true
+ },
+ {
+"id": "home_video",
+"key": "retro_80s",
+"type": "hero",
+"enabled": true,
+"after_label": "After",
+"before_label": "Before"
+ },
+ {
+"id": "home_create",
+"type": "create_cards",
+"tools": [
+ "image_generate",
+ "image_edit"
+ ],
+"columns": 2,
+"enabled": true
+ },
+ {
+"id": "home_trending",
+"icon": "ic_trending_fire",
+"type": "trending",
+"title": "Trending styles",
+"source": "top_trends",
+"enabled": true,
+"see_all": true,
+"error_title": "Couldn't load trends",
+"item_action": "open_trend_generator",
+"retry_enabled": true,
+"see_all_title": "See all",
+"see_all_action": "open_trends_tab",
+"fallback_source": "first_trends_category"
+ },
+ {
+"id": "home_ai_tools",
+"icon": "ic_ai_tools",
+"rows": [
+ 2,
+ 2,
+ 2
+ ],
+"type": "tools_grid",
+"title": "AI Tools",
+"tools": [
+ "ai_ghibli",
+ "enhance",
+ "colorizer",
+ "upscale",
+ "face_cutout",
+ "bg_remover"
+ ],
+"enabled": true,
+"overflow_columns": 2
+ }
+ ],
+"schema_version": 1,
+"media2_audience": "none"
+ },
+"deeplinks": {
+"routes": {
+"home": {
+"tab": "home",
+"type": "tab"
+ },
+"tools": {
+"tab": "tools",
+"type": "tab"
+ },
+"video": {
+"tab": "video",
+"type": "tab"
+ },
+"ghibli": {
+"tool": "ai_ghibli",
+"type": "tool"
+ },
+"trends": {
+"tab": "trends",
+"type": "tab"
+ },
+"enhance": {
+"tool": "enhance",
+"type": "tool"
+ },
+"history": {
+"tab": "history",
+"type": "tab"
+ },
+"support": {
+"type": "screen",
+"screen": "support"
+ },
+"upscale": {
+"tool": "upscale",
+"type": "tool"
+ },
+"colorizer": {
+"tool": "colorizer",
+"type": "tool"
+ },
+"retro-80s": {
+"tool": "retro_80s",
+"type": "tool"
+ },
+"bg-remover": {
+"tool": "bg_remover",
+"type": "tool"
+ },
+"image-edit": {
+"tool": "image_edit",
+"type": "tool"
+ },
+"face-cutout": {
+"tool": "face_cutout",
+"type": "tool"
+ },
+"video-maker": {
+"tool": "image_to_video",
+"type": "tool"
+ },
+"image-generate": {
+"tool": "image_generate",
+"type": "tool"
+ }
+ },
+"enabled": true,
+"fallback": "home",
+"path_prefix": "/d/",
+"scheme_host": "d",
+"dynamic_routes": {
+"trend": {
+"type": "trend",
+"params": [
+ "id"
+ ]
+ },
+"result": {
+"type": "preview",
+"params": [
+ "url",
+ "video",
+ "label",
+ "flag"
+ ]
+ }
+ },
+"schema_version": 1
+ }
+ },
+"appharbel": {
+"enable": true,
+"apikey": "9c97a122-9473-40af-ac43-ffef0cb4198c"
+ }
+}
