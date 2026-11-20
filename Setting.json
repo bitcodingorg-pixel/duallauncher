@@ -89,12 +89,12 @@
  { 
  "network": "adx", 
  "id": "/21753324030,22831392815/com.dualspace.launcher.parallelapp.cloneapp.dualappcloner.multipleaccounts_Interstitial", 
- "percentage": 50 
+ "percentage": 0 
  }, 
  { 
  "network": "facebook", 
  "id": "1929715864726544_1929716941393103", 
- "percentage": 50 
+ "percentage": 100
  } 
  ] 
  }, 
@@ -105,13 +105,13 @@
  { 
  "network": "adx", 
  "id": "/21753324030,22831392815/com.dualspace.launcher.parallelapp.cloneapp.dualappcloner.multipleaccounts_Rewarded", 
- "percentage": 50 
+ "percentage": 0
  }, 
  { 
  "network": "facebook", 
  "id": "1929715864726544_1929718174726313", 
  "type": "rewarded_interstitial", 
- "percentage": 50 
+ "percentage": 100
  } 
  ] 
  }, 
@@ -135,12 +135,12 @@
  { 
  "network": "adx", 
  "id": "/21753324030,22831392815/com.dualspace.launcher.parallelapp.cloneapp.dualappcloner.multipleaccounts_Banner", 
- "percentage": 50 
+ "percentage": 0
  }, 
  { 
  "network": "facebook", 
  "id": "1929715864726544_1929716941393103", 
- "percentage": 50 
+ "percentage": 100
  } 
  ] 
  }, 
@@ -174,13 +174,13 @@
  { 
  "network": "adx", 
  "id": "/21753324030,22831392815/com.dualspace.launcher.parallelapp.cloneapp.dualappcloner.multipleaccounts_Native", 
- "percentage": 50 
+ "percentage": 0
  }, 
  { 
  "network": "facebook", 
  "id": "1929715864726544_1929717994726331", 
  "type": "native", 
- "percentage": 50 
+ "percentage": 100
  } 
  ] 
  }, 
