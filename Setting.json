@@ -51,14 +51,19 @@
  "in_bundled_apps": false, 
  "units": [ 
  { 
- "network": "adx", 
- "id": "/21753324030,22831392815/com.dualspace.launcher.parallelapp.cloneapp.dualappcloner.multipleaccounts_AppOpen", 
- "percentage": 50 
+ "network": "admob", 
+ "id": "ca-app-pub-7230711240222133/3263969801", 
+ "percentage": 60 
  }, 
  { 
  "network": "facebook", 
  "id": "1929715864726544_1929716941393103", 
- "percentage": 50 
+ "percentage": 40 
+ }, 
+ { 
+ "network": "adx", 
+ "id": "/21753324030,22831392815/com.dualspace.launcher.parallelapp.cloneapp.dualappcloner.multipleaccounts_AppOpen", 
+ "percentage": 0 
  } 
  ] 
  }, 
@@ -94,14 +99,19 @@
  }, 
  "units": [ 
  { 
- "network": "adx", 
- "id": "/21753324030,22831392815/com.dualspace.launcher.parallelapp.cloneapp.dualappcloner.multipleaccounts_Interstitial", 
- "percentage": 50 
+ "network": "admob", 
+ "id": "ca-app-pub-7230711240222133/2142459826", 
+ "percentage": 60 
  }, 
  { 
  "network": "facebook", 
  "id": "1929715864726544_1929716941393103", 
- "percentage": 50 
+ "percentage": 40 
+ }, 
+ { 
+ "network": "adx", 
+ "id": "/21753324030,22831392815/com.dualspace.launcher.parallelapp.cloneapp.dualappcloner.multipleaccounts_Interstitial", 
+ "percentage": 0 
  } 
  ] 
  }, 
@@ -110,15 +120,20 @@
  "mode": "percentage", 
  "units": [ 
  { 
- "network": "adx", 
- "id": "/21753324030,22831392815/com.dualspace.launcher.parallelapp.cloneapp.dualappcloner.multipleaccounts_Rewarded", 
- "percentage": 50 
+ "network": "admob", 
+ "id": "ca-app-pub-7230711240222133/9160002157", 
+ "percentage": 60 
  }, 
  { 
  "network": "facebook", 
  "id": "1929715864726544_1929718174726313", 
  "type": "rewarded_interstitial", 
- "percentage": 50 
+ "percentage": 40 
+ }, 
+ { 
+ "network": "adx", 
+ "id": "/21753324030,22831392815/com.dualspace.launcher.parallelapp.cloneapp.dualappcloner.multipleaccounts_Rewarded", 
+ "percentage": 0 
  } 
  ] 
  }, 
@@ -140,14 +155,19 @@
  }, 
  "units": [ 
  { 
- "network": "adx", 
- "id": "/21753324030,22831392815/com.dualspace.launcher.parallelapp.cloneapp.dualappcloner.multipleaccounts_Banner", 
- "percentage": 50 
+ "network": "admob", 
+ "id": "ca-app-pub-7230711240222133/6916982193", 
+ "percentage": 60 
  }, 
  { 
  "network": "facebook", 
  "id": "1929715864726544_1929716941393103", 
- "percentage": 50 
+ "percentage": 40 
+ }, 
+ { 
+ "network": "adx", 
+ "id": "/21753324030,22831392815/com.dualspace.launcher.parallelapp.cloneapp.dualappcloner.multipleaccounts_Banner", 
+ "percentage": 0 
  } 
  ] 
  }, 
@@ -179,15 +199,20 @@
  "on_launcher_drawer": true, 
  "units": [ 
  { 
- "network": "adx", 
- "id": "/21753324030,22831392815/com.dualspace.launcher.parallelapp.cloneapp.dualappcloner.multipleaccounts_Native", 
- "percentage": 50 
+ "network": "admob", 
+ "id": "ca-app-pub-7230711240222133/1329613592", 
+ "percentage": 60 
  }, 
  { 
  "network": "facebook", 
  "id": "1929715864726544_1929885334709597", 
  "type": "native", 
- "percentage": 50 
+ "percentage": 40 
+ }, 
+ { 
+ "network": "adx", 
+ "id": "/21753324030,22831392815/com.dualspace.launcher.parallelapp.cloneapp.dualappcloner.multipleaccounts_Native", 
+ "percentage": 0 
  } 
  ] 
  }, 
@@ -204,7 +229,7 @@
  "facebook_block": "ads.facebook.enabled false = sab Facebook units band (baaki chalte rahenge). test_mode true = Meta test ads (sirf testing ke liye, live par false). test_devices = Meta log ka \"Test mode device hash\".", 
  "facebook_rewarded": "Rewarded me Meta ke dono format chalte hain: \"Rewarded Video\" aur \"Rewarded Interstitial\". \"type\": \"rewarded_interstitial\" likho to seedha usi tarah maanga jata hai. type na likho to pehle Rewarded Video, aur error 1203 aaye to khud Rewarded Interstitial try hota hai.", 
  "facebook_pending": "interstitial + app_open ka facebook id khaali hai: diya gaya Intra id (..._1929716941393103) Banner placement hai (Meta error 1203). Meta Monetization Manager me ek Interstitial placement banao aur uska id interstitial + app_open dono ke facebook unit me daalo. native ka \"native_banner\" unit bhi khaali hai: ek \"Native Banner\" placement banao (chhoti jagah ke liye). Tab tak wahan AdX chalega.", 
- "order": "AdX har list me pehle hai: purane app version \"mode\" nahi samajhte, woh list ke order se chalte hain, isliye unke liye AdX hi pehla rahega." 
+ "order": "Har list ka order: AdMob (60), Facebook (40), AdX (0). Pehla ad percentage se chuna jata hai (100 me se 60 baar AdMob, 40 baar Facebook). Woh fail ho to doosra (AdMob/Facebook), dono fail hon to aakhir me AdX. AdX ka percentage 0 = woh kabhi pehle nahi maanga jata, sirf last fallback." 
  } 
  }, 
  "app": { 
