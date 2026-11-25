@@ -33,7 +33,7 @@
  }, 
  "ads": { 
  "enabled": true, 
- "admob_app_id": "ca-app-pub-7230711240222133~8973346077", 
+ "admob_app_id": "ca-app-pub-1430618595617271~4469379881", 
  "facebook": { 
  "enabled": true, 
  "app_id": "1929715864726544", 
@@ -52,7 +52,7 @@
  "units": [ 
  { 
  "network": "admob", 
- "id": "ca-app-pub-7230711240222133/3263969801", 
+ "id": "ca-app-pub-1430618595617271/6137684770", 
  "percentage": 60 
  }, 
  { 
@@ -100,7 +100,7 @@
  "units": [ 
  { 
  "network": "admob", 
- "id": "ca-app-pub-7230711240222133/2142459826", 
+ "id": "ca-app-pub-1430618595617271/5794069842", 
  "percentage": 60 
  }, 
  { 
@@ -121,7 +121,7 @@
  "units": [ 
  { 
  "network": "admob", 
- "id": "ca-app-pub-7230711240222133/9160002157", 
+ "id": "ca-app-pub-1430618595617271/5582703896", 
  "percentage": 60 
  }, 
  { 
@@ -156,7 +156,7 @@
  "units": [ 
  { 
  "network": "admob", 
- "id": "ca-app-pub-7230711240222133/6916982193", 
+ "id": "ca-app-pub-1430618595617271/1427323110", 
  "percentage": 60 
  }, 
  { 
@@ -200,7 +200,7 @@
  "units": [ 
  { 
  "network": "admob", 
- "id": "ca-app-pub-7230711240222133/1329613592", 
+ "id": "ca-app-pub-1430618595617271/8763848118", 
  "percentage": 60 
  }, 
  { 
