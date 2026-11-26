@@ -193,7 +193,7 @@
  "icon_background": "white", 
  "label": { 
  "show": true, 
- "text": "Ad", 
+ "text": "", 
  "background_color": "#FFBF00", 
  "text_color": "#000000", 
  "position": "top_end" 
