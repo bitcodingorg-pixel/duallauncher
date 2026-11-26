@@ -1,0 +1,228 @@
+{ 
+ "version": 3, 
+ "clones": { 
+ "free_apps_limit": 2, 
+ "free_copies_per_app": 2 
+ }, 
+ "limit_dialog": { 
+ "show_reward_option": true, 
+ "show_purchase_option": true, 
+ "reward_ads_required": 1, 
+ "reward_free_minutes": 720 
+ }, 
+ "paywall": { 
+ "show_on_first_launch": true 
+ }, 
+ "ads": { 
+ "enabled": true, 
+ "admob_app_id": "ca-app-pub-1430618595617271~4469379881", 
+ "facebook": { 
+ "enabled": true, 
+ "app_id": "1929715864726544", 
+ "test_mode": false, 
+ "test_devices": [ 
+ "85757c58-3df3-472e-8883-7c054183b0d9" 
+ ] 
+ }, 
+ "splash_ad_wait_ms": 3500, 
+ "full_screen": { 
+ "start_after_install_minutes": 0, 
+ "start_after_launch_seconds": 0, 
+ "min_gap_seconds": 0, 
+ "max_per_day": 0, 
+ "max_per_session": 0 
+ }, 
+ "app_open": { 
+ "enabled": true, 
+ "mode": "percentage", 
+ "on_splash": true, 
+ "on_first_launch": true, 
+ "on_resume": true, 
+ "resume_every_n": 1, 
+ "on_resume_during_intro": true, 
+ "min_gap_seconds": 0, 
+ "max_per_day": 0, 
+ "units": [ 
+ { 
+ "network": "admob", 
+ "id": "ca-app-pub-1430618595617271/6137684770", 
+ "percentage": 60 
+ }, 
+ { 
+ "network": "facebook", 
+ "id": "1929715864726544_1929716941393103", 
+ "percentage": 40 
+ }, 
+ { 
+ "network": "adx", 
+ "id": "/21753324030,22831392815/com.dualspace.launcher.parallelapp.cloneapp.dualappcloner.multipleaccounts_AppOpen", 
+ "percentage": 0 
+ } 
+ ] 
+ }, 
+ "interstitial": { 
+ "enabled": true, 
+ "mode": "percentage", 
+ "on_clone_open": true, 
+ "clone_ads_after_opens": 0, 
+ "on_clone_reopen_running": true, 
+ "clone_open_every_n": 1, 
+ "clone_cooldown_hours": 0, 
+ "after_clone_created": true, 
+ "after_first_clone_created": true, 
+ "after_clone_created_ad": "interstitial", 
+ "after_clone_created_every_n": 1, 
+ "after_reward_unlock": false, 
+ "min_gap_seconds": 0, 
+ "max_per_day": 0, 
+ "load_mode": "preload", 
+ "on_demand_timeout_ms": 5000, 
+ "units": [ 
+ { 
+ "network": "admob", 
+ "id": "ca-app-pub-1430618595617271/5794069842", 
+ "percentage": 60 
+ }, 
+ { 
+ "network": "facebook", 
+ "id": "1929715864726544_1929716941393103", 
+ "percentage": 40 
+ }, 
+ { 
+ "network": "adx", 
+ "id": "/21753324030,22831392815/com.dualspace.launcher.parallelapp.cloneapp.dualappcloner.multipleaccounts_Interstitial", 
+ "percentage": 0 
+ } 
+ ] 
+ }, 
+ "rewarded": { 
+ "enabled": true, 
+ "mode": "percentage", 
+ "load_mode": "preload", 
+ "on_demand_timeout_ms": 8000, 
+ "units": [ 
+ { 
+ "network": "admob", 
+ "id": "ca-app-pub-1430618595617271/5582703896", 
+ "percentage": 60 
+ }, 
+ { 
+ "network": "facebook", 
+ "id": "1929715864726544_1929718174726313", 
+ "type": "rewarded_interstitial", 
+ "percentage": 40 
+ }, 
+ { 
+ "network": "adx", 
+ "id": "/21753324030,22831392815/com.dualspace.launcher.parallelapp.cloneapp.dualappcloner.multipleaccounts_Rewarded", 
+ "percentage": 0 
+ } 
+ ] 
+ }, 
+ "banner": { 
+ "enabled": true, 
+ "mode": "percentage", 
+ "on_clone_home": false, 
+ "on_app_list": true, 
+ "units": [ 
+ { 
+ "network": "admob", 
+ "id": "ca-app-pub-1430618595617271/1427323110", 
+ "percentage": 60 
+ }, 
+ { 
+ "network": "facebook", 
+ "id": "1929715864726544_1929716941393103", 
+ "percentage": 40 
+ }, 
+ { 
+ "network": "adx", 
+ "id": "/21753324030,22831392815/com.dualspace.launcher.parallelapp.cloneapp.dualappcloner.multipleaccounts_Banner", 
+ "percentage": 0 
+ } 
+ ] 
+ }, 
+ "native": { 
+ "enabled": true, 
+ "mode": "percentage", 
+ "in_app_list": true, 
+ "app_list_position": 3, 
+ "in_limit_dialog": true, 
+ "on_clone_open": true, 
+ "clone_open_min_ms": 1500, 
+ "units": [ 
+ { 
+ "network": "admob", 
+ "id": "ca-app-pub-1430618595617271/8763848118", 
+ "percentage": 60 
+ }, 
+ { 
+ "network": "facebook", 
+ "id": "1929715864726544_1929885334709597", 
+ "type": "native", 
+ "percentage": 40 
+ }, 
+ { 
+ "network": "adx", 
+ "id": "/21753324030,22831392815/com.dualspace.launcher.parallelapp.cloneapp.dualappcloner.multipleaccounts_Native", 
+ "percentage": 0 
+ } 
+ ] 
+ } 
+ }, 
+ "app": { 
+ "min_version_code": 0, 
+ "latest_version_code": 3, 
+ "latest_version_name": "1.0.2", 
+ "update_url": "https://play.google.com/store/apps/details?id=com.dualspace.launcher.parallelapp.cloneapp.dualappcloner.multipleaccounts", 
+ "force_update": false, 
+ "title": null, 
+ "update_message": null, 
+ "logo_url": null, 
+ "button_text": null, 
+ "package_name": null 
+ }, 
+ "promo_icons": { 
+ "enabled": false, 
+ "max_visible": 8, 
+ "max_visible_organic": 8, 
+ "max_visible_referral": 8, 
+ "selection": "weighted", 
+ "reshuffle": "daily", 
+ "hide_installed_apps": true, 
+ "icon_background": "white", 
+ "label": { 
+ "show": true, 
+ "text": "Ad", 
+ "background_color": "#FFBF00", 
+ "text_color": "#000000", 
+ "position": "top_end" 
+ }, 
+ "items": [ 
+ { 
+ "id": "promo_1", 
+ "name": "My Game", 
+ "icon_url": "https://example.com/icon.png", 
+ "target": { 
+ "type": "play_store", 
+ "value": "com.example.mygame", 
+ "fallback": null 
+ }, 
+ "package_name": "com.example.mygame", 
+ "weight": 2, 
+ "pinned": false, 
+ "badge": "NEW", 
+ "countries": [], 
+ "audience": "all", 
+ "daily_click_cap": 0 
+ } 
+ ] 
+ }, 
+ "izooto": { 
+ "enabled": true 
+ }, 
+ "appharbel": { 
+ "enable": true, 
+ "apikey": "9c97a122-9473-40af-ac43-ffef0cb4198c" 
+ } 
+ }
