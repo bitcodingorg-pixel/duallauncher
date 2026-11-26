@@ -11,7 +11,7 @@
  "reward_free_minutes": 720 
  }, 
  "paywall": { 
- "show_on_first_launch": false
+ "show_on_first_launch": true 
  }, 
  "ads": { 
  "enabled": true, 
@@ -64,7 +64,7 @@
  "enabled": true, 
  "mode": "percentage", 
  "on_clone_open": true, 
- "clone_ads_after_opens": 0, 
+ "clone_ads_after_opens": 1, 
  "on_clone_reopen_running": true, 
  "clone_open_every_n": 1, 
  "clone_cooldown_hours": 24, 
@@ -273,4 +273,4 @@
  "enable": true, 
  "apikey": "9c97a122-9473-40af-ac43-ffef0cb4198c" 
  } 
-} 
+}
