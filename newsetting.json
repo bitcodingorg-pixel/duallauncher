@@ -11,7 +11,7 @@
  "reward_free_minutes": 720 
  }, 
  "paywall": { 
- "show_on_first_launch": true 
+ "show_on_first_launch": false
  }, 
  "ads": { 
  "enabled": true, 
