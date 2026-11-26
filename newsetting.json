@@ -1,7 +1,7 @@
 { 
  "version": 3, 
  "clones": { 
- "free_apps_limit": 2, 
+ "free_apps_limit": 3, 
  "free_copies_per_app": 2 
  }, 
  "limit_dialog": { 
@@ -36,7 +36,7 @@
  "enabled": true, 
  "mode": "percentage", 
  "on_splash": true, 
- "on_first_launch": true, 
+ "on_first_launch": false, 
  "on_resume": true, 
  "resume_every_n": 1, 
  "on_resume_during_intro": true, 
@@ -67,8 +67,8 @@
  "clone_ads_after_opens": 0, 
  "on_clone_reopen_running": true, 
  "clone_open_every_n": 1, 
- "clone_cooldown_hours": 0, 
- "after_clone_created": true, 
+ "clone_cooldown_hours": 24, 
+ "after_clone_created": false, 
  "after_first_clone_created": true, 
  "after_clone_created_ad": "interstitial", 
  "after_clone_created_every_n": 1, 
@@ -183,37 +183,85 @@
  "package_name": null 
  }, 
  "promo_icons": { 
- "enabled": false, 
- "max_visible": 8, 
- "max_visible_organic": 8, 
- "max_visible_referral": 8, 
- "selection": "weighted", 
- "reshuffle": "daily", 
+ "enabled": true, 
+ "max_visible": 3, 
+ "max_visible_organic": 3, 
+ "max_visible_referral": 3, 
+ "selection": "fixed", 
+ "reshuffle": "never", 
  "hide_installed_apps": true, 
- "icon_background": "white", 
+ "icon_background": "none", 
  "label": { 
  "show": true, 
- "text": "", 
+ "text": "Ad", 
  "background_color": "#FFBF00", 
  "text_color": "#000000", 
  "position": "top_end" 
  }, 
  "items": [ 
  { 
- "id": "promo_1", 
- "name": "My Game", 
- "icon_url": "https://example.com/icon.png", 
+ "id": "magical_ai", 
+ "name": "Unlimited AI Images - Magical", 
+ "icon_url": "https://play-lh.googleusercontent.com/BSAjF6VUfh_kFOE5sjwv5pPAa6AlHx2jRtK2vJXF90Y7jNh9VeY66qGi0-v2Zr3H7zIyq_cYdhmmpKYc9afXLQ=w240-h480-rw", 
  "target": { 
- "type": "play_store", 
- "value": "com.example.mygame", 
+ "type": "url", 
+ "value": "https://magicalstudio.ai/", 
  "fallback": null 
  }, 
- "package_name": "com.example.mygame", 
- "weight": 2, 
- "pinned": false, 
- "badge": "NEW", 
- "countries": [], 
+ "placement": "footer", 
  "audience": "all", 
+ "badge": "NEW", 
+ "label": { 
+ "show": true 
+ }, 
+ "weight": 1, 
+ "pinned": false, 
+ "countries": [], 
+ "daily_click_cap": 0 
+ }, 
+ { 
+ "id": "nude_ai", 
+ "name": "NUDE AI Images", 
+ "icon_url": "https://play-lh.googleusercontent.com/JA6e-6VsWyGdmWeTKb1kVVJy1qpApW93VvNdSquarYadbNI3zhAH4qOcnyrMCOUs3d2i5ihG4oSl0RkdyZ3x=w240-h480-rw", 
+ "target": { 
+ "type": "url", 
+ "value": "https://hi.xhamster.desi/6", 
+ "fallback": null 
+ }, 
+ "placement": "home", 
+ "audience": "all", 
+ "badge": "HOT", 
+ "badge_background_color": "#FF2D87", 
+ "badge_text_color": "#FFFFFF", 
+ "label": { 
+ "show": false 
+ }, 
+ "weight": 1, 
+ "pinned": false, 
+ "countries": [], 
+ "daily_click_cap": 0 
+ }, 
+ { 
+ "id": "xxx_ai", 
+ "name": "XXX AI Images", 
+ "icon_url": "https://play-lh.googleusercontent.com/s2vFrDqslKWPibUScPZZ1YSVY8HBAiPGfhu1MlzVPMrHLhfYgB6MakGL5s85ms_uBCXbDG1rN8HpmCQ0iw0OIQ=w240-h480-rw", 
+ "target": { 
+ "type": "play_store", 
+ "value": "romanticstickers.love.sticker.wastickerapps", 
+ "fallback": null 
+ }, 
+ "package_name": "romanticstickers.love.sticker.wastickerapps", 
+ "placement": "home", 
+ "audience": "all", 
+ "badge": "XXX", 
+ "badge_background_color": "#E53935", 
+ "badge_text_color": "#FFFFFF", 
+ "label": { 
+ "show": false 
+ }, 
+ "weight": 1, 
+ "pinned": false, 
+ "countries": [], 
  "daily_click_cap": 0 
  } 
  ] 
@@ -225,4 +273,4 @@
  "enable": true, 
  "apikey": "9c97a122-9473-40af-ac43-ffef0cb4198c" 
  } 
- }
+} 
