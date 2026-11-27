@@ -220,17 +220,17 @@
  "daily_click_cap": 0 
  }, 
  { 
- "id": "nude_ai", 
- "name": "NUDE AI Images", 
- "icon_url": "https://play-lh.googleusercontent.com/JA6e-6VsWyGdmWeTKb1kVVJy1qpApW93VvNdSquarYadbNI3zhAH4qOcnyrMCOUs3d2i5ihG4oSl0RkdyZ3x=w240-h480-rw", 
+ "id": "", 
+ "name": "", 
+ "icon_url": "", 
  "target": { 
  "type": "url", 
- "value": "https://hi.xhamster.desi/6", 
+ "value": "", 
  "fallback": null 
  }, 
  "placement": "home", 
  "audience": "all", 
- "badge": "HOT", 
+ "badge": "", 
  "badge_background_color": "#FF2D87", 
  "badge_text_color": "#FFFFFF", 
  "label": { 
@@ -242,18 +242,18 @@
  "daily_click_cap": 0 
  }, 
  { 
- "id": "xxx_ai", 
- "name": "XXX AI Images", 
- "icon_url": "https://play-lh.googleusercontent.com/s2vFrDqslKWPibUScPZZ1YSVY8HBAiPGfhu1MlzVPMrHLhfYgB6MakGL5s85ms_uBCXbDG1rN8HpmCQ0iw0OIQ=w240-h480-rw", 
+ "id": "", 
+ "name": "", 
+ "icon_url": "", 
  "target": { 
  "type": "play_store", 
- "value": "romanticstickers.love.sticker.wastickerapps", 
+ "value": "", 
  "fallback": null 
  }, 
- "package_name": "romanticstickers.love.sticker.wastickerapps", 
+ "package_name": "", 
  "placement": "home", 
  "audience": "all", 
- "badge": "XXX", 
+ "badge": "", 
  "badge_background_color": "#E53935", 
  "badge_text_color": "#FFFFFF", 
  "label": { 
