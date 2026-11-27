@@ -183,7 +183,7 @@
  "package_name": null 
  }, 
  "promo_icons": { 
- "enabled": true, 
+ "enabled": false, 
  "max_visible": 3, 
  "max_visible_organic": 3, 
  "max_visible_referral": 3, 
